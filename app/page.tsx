@@ -6,6 +6,8 @@ import WhyChooseUs from "./component/WhyChooseUs/WhyChooseUs";
 import ClinicLocations from "./component/ClinicLocations/ClinicLocations";
 import Appointment from "./component/Appointment/Appointment";
 import Navbar from "./component/Navbar/Navbar";
+import WhatPeopleSay from "./component/WhatPeopleSay/WhatPeopleSay";
+import Footer from "./component/Footer/Footer";
 
 export default function Home() {
   return (
@@ -26,10 +28,16 @@ export default function Home() {
         <WhyChooseUs />
       </Box>
       <Box>
+        {/* <WhatPeopleSay /> */}
+      </Box>
+      <Box>
         <Appointment />
       </Box>
       <Box>
         <ClinicLocations />
+      </Box>
+      <Box>
+        <Footer />
       </Box>
     </Box>
   );
