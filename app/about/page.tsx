@@ -25,7 +25,7 @@ const About = () => {
               Indore. This well-known establishment acts as a one-stop
               destination servicing customers both local and from other parts of
               Indore. Over the course of its journey, this business has
-              established a firm foothold in it's industry. The belief that
+              established a firm foothold in it{"'"}s industry. The belief that
               customer satisfaction is as important as their products and
               services, have helped this establishment garner a vast base of
               customers, which continues to grow by the day. This business

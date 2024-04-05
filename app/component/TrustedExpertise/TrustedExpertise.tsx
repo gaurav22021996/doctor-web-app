@@ -15,7 +15,7 @@ const TrustedExpertise = () => {
             CERTIFICATION
           </Typography>
           <Typography gutterBottom variant="h4">
-            "Trusted Expertise: Our Certifications and Accolades"
+            {'"'}Trusted Expertise: Our Certifications and Accolades{'"'}
           </Typography>
           <Typography variant="subtitle1" gutterBottom className="mb-20">
             A wonderful serenity has taken possession of my entire soul, like
