@@ -13,9 +13,6 @@ export default function Home() {
   return (
     <Box>
       <Box>
-        <Navbar />
-      </Box>
-      <Box>
         <HeroSection />
       </Box>
       <Box>
@@ -27,17 +24,11 @@ export default function Home() {
       <Box>
         <WhyChooseUs />
       </Box>
-      <Box>
-        {/* <WhatPeopleSay /> */}
-      </Box>
-      <Box>
+      <Box id="contact">
         <Appointment />
       </Box>
       <Box>
         <ClinicLocations />
-      </Box>
-      <Box>
-        <Footer />
       </Box>
     </Box>
   );

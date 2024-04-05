@@ -2,6 +2,8 @@
 
 import { ThemeProvider } from "@emotion/react";
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
+import Navbar from "./component/Navbar/Navbar";
+import Footer from "./component/Footer/Footer";
 
 let theme = createTheme({
     palette: {
@@ -78,8 +80,9 @@ const App = ({ children }: {
 }) => {
     return (
         <ThemeProvider theme={theme}>
-            {/* <AppbarHeader/> */}
+            <Navbar />
             {children}
+            <Footer />
         </ThemeProvider>
     )
 }
